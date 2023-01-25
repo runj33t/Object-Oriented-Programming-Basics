@@ -44,6 +44,10 @@ int main(){
     employee1.Company = "UFTPL";
     employee1.Age = 23;
 
+    // if we comment 3 lines of code written above and invoke Introduce_Your_Self()
+    // ther will be no error and we will get output i.e. default construct has
+    // done its job. Now what is a constructor? We have discussed it in separate file.
+
     employee1.Introduce_Your_Self();
 
 

@@ -39,6 +39,7 @@ int main(){
     // creating instance of class Employee
     Employee employee1;
     
+    // we can access public members of class Employee using object employee1
     employee1.Name = "John";
     employee1.Company = "UFTPL";
     employee1.Age = 23;
